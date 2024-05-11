@@ -29,7 +29,7 @@ function calculateWinner(squares) {
   return null;
 }
 
-function Board({ xIsNext squares, onPlay}) {
+function Board({ xIsNext, squares, onPlay}) {
   // const [squares, setSquares] = useState(Array(9).fill(null));
   // const [xIsNext, setXIsNext] = useState(true);
   function handleClick(i) {
